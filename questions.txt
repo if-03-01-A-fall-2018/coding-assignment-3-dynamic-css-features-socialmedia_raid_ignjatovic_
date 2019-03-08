@@ -1,5 +1,39 @@
-what is the most valuable feature for school
-what is the most valuable feature for work
-what is the most valuable feature for home
-what is the most valuable feature for marketing
-v
+1) How much Social Media apps do you have on your mobile phone
+
+# no phone
+# 1
+# 2
+# 3
+# more than 3
+
+2) Which of the following Social Media do you using the most
+
+# Instagram -> How much images do you share
+# Snapchat -> How many snaps do you send
+# Whatsapp -> How many acive contacts do you visit daily
+# Facebook -> How much images do you share
+# Youtube -> How many minutes do you spent on Youtube / Are you a youtuber -> how many uploads a week
+# Twitter -> How many Tweets do you share
+...
+(Bild)
+
+3) how many apps would you be able to delete entirely from your mobile phone
+
+# 1
+# 2
+# 3
+# all of them
+
+4) How long would you be able to live without Social Media
+
+# 6h
+# 1 day
+# 1 week
+# 1 month
+
+5) how would you describe Social Media
+
+# Something i couldn't live without
+# Something i do in free time
+# Something i use to communicate
+# no option
