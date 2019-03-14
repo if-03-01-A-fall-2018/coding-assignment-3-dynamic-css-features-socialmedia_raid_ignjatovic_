@@ -7,6 +7,15 @@ h1.newHeader {
   animation-iteration-count: 4s;
   font-size: 50px;
 }
+h1.newHeaderForTY {
+  position: relative;
+  animation: mymove2;
+  animation-fill-mode: forwards;
+  text-align: center;
+  animation-duration: 3s;
+  animation-iteration-count: 3s;
+  font-size: 50px;
+}
 
 /* Safari 4.0 - 8.0 */
 
@@ -20,6 +29,17 @@ h1.newHeader {
   66%  {color:dodgerblue;}
   100% {color:darkblue;}
 }
+
+@keyframes mymove2 {
+  from {top: 0px;}
+  to {top: 180px;}
+  0%   {color:white;}
+  10%   {color:white;}
+  33%  {color:lightblue;}
+  66%  {color:dodgerblue;}
+  100% {color:darkblue;}
+}
+
 
 li.about2{
   float: right;
