@@ -7,6 +7,18 @@ h1.newHeader {
   animation-iteration-count: 4s;
   font-size: 50px;
 }
+h1.normalHeader {
+  position: relative;
+  animation: mymove3;
+  animation-fill-mode: forwards;
+  text-align: center;
+  animation-duration: 4s;
+  animation-iteration-count: 4s;
+  font-size: 50px;
+}
+div: {
+  width: 300px;
+}
 h1.newHeaderForTY {
   position: relative;
   animation: mymove2;
@@ -36,6 +48,15 @@ h1.newHeaderForTY {
   0%   {color:white;}
   10%   {color:white;}
   33%  {color:lightblue;}
+  66%  {color:dodgerblue;}
+  100% {color:darkblue;}
+}
+@keyframes mymove3 {
+  from {top: 200px;}
+  to {top: 200px;}
+  0%   {color:lightblue;}
+  10%   {color:blue;}
+  33%  {color:blue;}
   66%  {color:dodgerblue;}
   100% {color:darkblue;}
 }
@@ -123,6 +144,11 @@ h2.SecHeader{
   color: indigo;
   text-shadow: 2px 2px 4px white;
 }
+h2.warning{
+  color: red;
+  text-shadow: 5px 5px 5px yellow;
+}
+
 h3.margin{
   margin-left: 20px;
 }
