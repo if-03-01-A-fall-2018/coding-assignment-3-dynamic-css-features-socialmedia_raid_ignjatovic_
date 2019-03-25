@@ -29,9 +29,6 @@ h1.newHeaderForTY {
   font-size: 50px;
 }
 
-/* Safari 4.0 - 8.0 */
-
-
 @keyframes mymove {
   from {top: 0px;}
   to {top: 260px;}
