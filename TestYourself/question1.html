@@ -3,11 +3,34 @@
   <head>
     <link rel="stylesheet" type="text/css" href="../CSS/designe.css">
     <link rel="stylesheet" type="text/css" href="../CSS/questionnaire.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/question_bar.css">
     <script src="../JS/poll.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <title>Test Yourself</title>
   </head>
   <body>
+    <section>
+      <ul class="nav">
+      <div class="dropdown" style="float:left;">
+        <button class="dropbtn">ANSWERED QUESTIONS</button>
+        <div class="dropdown-content" style="left:0;">
+          <a href="#">we just started!</a>
+        </div>
+      </div>
+      <div class="dropdown" style="float:right;">
+        <button class="dropbtn">SKIP TO QUESTION</button>
+        <div class="dropdown-content">
+          <a href="../TestYourself/question1.html">first question</a>
+          <a href="../TestYourself/question2.html">second question</a>
+          <a href="../TestYourself/question3.html">third question</a>
+          <a href="../TestYourself/question4.html">fourth question</a>
+          <a href="../TestYourself/question5.html">fifth question</a>
+        </div>
+      </ul>
+      </ul>
+
+    </section>
+
     <h1 class="newHeaderForTY">first question</h1>
     <br>
     <article class="body">
@@ -18,9 +41,9 @@
         <p>3:<input type="radio" name ="a" id="a3"  onclick="question1()"></p>
         <p>4:<input type="radio" name ="a" id="a4"  onclick="question1()"></p>
         <p>5:<input type="radio" name ="a" id="a5"  onclick="question1()"></p>
-        <button class="button" onclick="window.location.href='../TestYourself/Main.html'">Home</button>
-        <button class="button" onclick="window.location.href='../TestYourself/question2.html'">Continue</button>
-        <button class="button" onclick="window.location.href='../SocialMedia.html'">Leave</button>
+        <button class="button" onclick="window.location.href='../TestYourself/Main.html'">HOME </button>
+        <button class="button" onclick="window.location.href='../TestYourself/question2.html'">CONTINUE</button>
+        <button class="button" onclick="window.location.href='../SocialMedia.html'">LEAVE</button>
       </section>
     </article>
   </body>
