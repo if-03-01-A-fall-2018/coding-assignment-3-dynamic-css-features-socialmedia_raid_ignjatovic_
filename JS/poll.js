@@ -1,3 +1,6 @@
+
+var number = 0;
+
 function question1(){
   var checkBoxForSubmit = document.getElementById("submit");
   var checkBoxForAnswer1 = document.getElementById("a1");
@@ -6,12 +9,9 @@ function question1(){
   var checkBoxForAnswer4 = document.getElementById("a4");
   var checkBoxForAnswer5 = document.getElementById("a5");
 
-  var number = 0;
 
-  if (checkBoxForSubmit.checked == true){
-    text.style.display = "block";
-  }
-  else if (checkBoxForAnswer1.checked == false) {
+
+  if (checkBoxForAnswer1.checked == false) {
     number = number + 1;
   }
   else if (checkBoxForAnswer2.checked == false) {
@@ -26,6 +26,8 @@ function question1(){
   else if (checkBoxForAnswer5.checked == false) {
     number = number + 5;
   }
+
+  console.log(number);
 }
 function question2(){
   var checkBoxForSubmit = document.getElementById("submit");
@@ -35,12 +37,7 @@ function question2(){
   var checkBoxForAnswer4 = document.getElementById("a4");
   var checkBoxForAnswer5 = document.getElementById("a5");
 
-  var number = 0;
-
-  if (checkBoxForSubmit.checked == true){
-    text.style.display = "block";
-  }
-  else if (checkBoxForAnswer1.checked == false) {
+   if (checkBoxForAnswer1.checked == false) {
     number = number + 1;
   }
   else if (checkBoxForAnswer2.checked == false) {
@@ -64,12 +61,7 @@ function question3(){
   var checkBoxForAnswer4 = document.getElementById("a4");
   var checkBoxForAnswer5 = document.getElementById("a5");
 
-  var number = 0;
-
-  if (checkBoxForSubmit.checked == true){
-    text.style.display = "block";
-  }
-  else if (checkBoxForAnswer1.checked == false) {
+  if (checkBoxForAnswer1.checked == false) {
     number = number + 1;
   }
   else if (checkBoxForAnswer2.checked == false) {
@@ -84,4 +76,6 @@ function question3(){
   else if (checkBoxForAnswer5.checked == false) {
     number = number + 5;
   }
+
+  console.log(number);
 }
