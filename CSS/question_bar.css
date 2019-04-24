@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.dropdown {
+.dropdown { 
   position: relative;
   display: inline-block;
 }

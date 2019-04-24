@@ -5,7 +5,7 @@ h1.newHeader {
   text-align: center;
   animation-duration: 4s;
   animation-iteration-count: 4s;
-  font-size: 50px;
+  font-size: 50px; 
 }
 h1.normalHeader {
   position: relative;
