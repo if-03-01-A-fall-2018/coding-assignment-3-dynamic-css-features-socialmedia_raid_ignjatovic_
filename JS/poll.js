@@ -24,10 +24,11 @@ function nextquestion(){
 function result(){
   question();
   document.getElementById("question"+questionCount).style.cssText="display:none";
-  document.getElementById("num").innerHTML =number;
+
   document.getElementById("result").style.cssText="display:block";
   var margin=number*5-25;
   console.log(margin);
+  document.getElementById("num").innerHTML =margin + "%";
   document.getElementById("pointer").style.cssText="margin-left:"+margin+"%";
 }
 
