@@ -31,7 +31,7 @@ h1.newHeaderForTY {
 
 @keyframes mymove {
   from {top: 0px;}
-  to {top: 260px;}
+  to {top: 275px;}
   0%   {color:white;}
   10%   {color:white;}
   33%  {color:lightblue;}
@@ -80,7 +80,12 @@ ul.nav {
   overflow: auto;
   background-color: #333;
 }
-
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:50%;
+  border: center;
+}
 
 p.grey{
   color: grey;
