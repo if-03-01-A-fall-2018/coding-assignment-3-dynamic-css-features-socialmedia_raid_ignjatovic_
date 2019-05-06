@@ -29,7 +29,16 @@ ul.navQuestions {
   background-color: #000;
   margin-top: -14px;
 }
+
 h1.test{
-  color: Indigo;
+  color: indigo;
+  animation:color;
   font-size: 30px;
+}
+@keyframes color{
+  0%   {color:indigo;}
+ 25%  {color:darkblue;}
+ 50%  {color:dodgerblue;}
+ 75%  {color:darkblue;}
+ 100% {color:indigo;}
 }
