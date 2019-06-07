@@ -2,6 +2,14 @@
 var number = 0;
 var questionCount=0;
 
+window.onload = function () {
+        document.getElementById("button1").disabled = true;
+        document.getElementById("button2").disabled = true;
+        document.getElementById("button3").disabled = true;
+        document.getElementById("button4").disabled = true;
+        document.getElementById("button5").disabled = true;
+    }
+
 function nextquestion(){
   var checkBoxForSubmit = document.getElementById("submit");
   var checkBoxForAnswer1 = document.getElementById("a1_"+questionCount);
@@ -10,7 +18,7 @@ function nextquestion(){
   var checkBoxForAnswer4 = document.getElementById("a4_"+questionCount);
   var checkBoxForAnswer5 = document.getElementById("a5_"+questionCount);
   if(checkBoxForAnswer1!=null && checkBoxForAnswer2!=null && checkBoxForAnswer3!=null && checkBoxForAnswer4!=null && checkBoxForAnswer5!=null && checkBoxForAnswer1.checked == false && checkBoxForAnswer2.checked == false && checkBoxForAnswer3.checked == false && checkBoxForAnswer4.checked == false && checkBoxForAnswer5.checked == false){
-    alert("You didnt selelct anything!")
+  alert("You didnt selelct anything!")
   }
 
   else {
