@@ -10,6 +10,10 @@ window.onload = function () {
         document.getElementById("button5").disabled = true;
     }
 
+function enable(id){
+  document.getElementById("button"+id).disabled = false;
+}
+
 function nextquestion(){
   var checkBoxForSubmit = document.getElementById("submit");
   var checkBoxForAnswer1 = document.getElementById("a1_"+questionCount);
@@ -38,6 +42,31 @@ function result(){
   console.log(margin);
   document.getElementById("num").innerHTML =margin + "%";
   document.getElementById("pointer").style.cssText="margin-left:"+margin+"%";
+
+  if(margin>=0&&margin<=10)
+  {
+    document.getElementById("result1").style.cssText="display:block";
+  }
+  if(margin>=11&&margin<=30)
+  {
+    document.getElementById("result2").style.cssText="display:block";
+  }
+  if(margin>=31&&margin<=50)
+  {
+    document.getElementById("result3").style.cssText="display:block";
+  }
+  if(margin>=51&&margin<=70)
+  {
+    document.getElementById("result4").style.cssText="display:block";
+  }
+  if(margin>=71&&margin<=90)
+  {
+    document.getElementById("result5").style.cssText="display:block";
+  }
+  if(margin>=91&&margin<=100)
+  {
+    document.getElementById("result6").style.cssText="display:block";
+  }
 }
 
 

@@ -38,7 +38,7 @@
       <h1 class="newHeaderForTY">First question</h1>
       <br>
       <article class="body">
-        <section>
+        <section onchange="enable(1)">
           <h2>How many social media apps do you have on your mobile phone?</h2>
           <p>1:<input type="radio" name ="a" id="a1_1"></p>
           <p>2:<input type="radio" name ="a" id="a2_1"></p>
@@ -56,7 +56,7 @@
       <h1 class="newHeaderForTY">Second question</h1>
       <br>
       <article class="body">
-        <section>
+        <section onchange="enable(2)">
           <h2>Which of the following social media platforms do you use the most? </h2>
           <p>Whatsapp: <input type="radio" name ="a" id="a1_2" ></p>
           <p>Twitter: <input type="radio" name ="a" id="a2_2"></p>
@@ -73,7 +73,7 @@
       <h1 class="newHeaderForTY">Third question</h1>
       <br>
       <article class="body">
-        <section>
+        <section onchange="enable(3)">
           <h2>How many social media apps could you delete entirely from your mobile phone without missing them? </h2>
           <p>All of them :<input type="radio" id="a1_3"></p>
           <p>4 :<input type="radio" id="a2_3"></p>
@@ -91,7 +91,7 @@
       <h1 class="newHeaderForTY">Fourth question</h1>
       <br>
       <article class="body">
-        <section>
+        <section onchange="enable(4)">
           <h2>How long could you "live" without social media?</h2>
           <p>1 year :<input type="radio" id="a1_4"></p>
           <p>1 week :<input type="radio" id="a2_4"></p>
@@ -108,7 +108,7 @@
       <h1 class="newHeaderForTY">Fifth question</h1>
       <br>
       <article class="body">
-        <section>
+        <section onchange="enable(5)">
           <h2>When do you use social media?</h2>
           <p>I do not use it at all:<input type="radio" id="a1_5"></p>
           <p>I only use it in my free time:<input type="radio" id="a2_5"></p>
@@ -130,26 +130,37 @@
         <section id="pointer">
         </section>
         <br>
-        <h1 class="test">Check your result here:</h1>
-        <h2><strong><u>0% - 10%:</u></strong></h2>
-        <p><strong style="color:green">You are on the safe side!</strong> </p>
-        <p> That means you are not addicted to social media.</p>
-        <h2><strong><u>10% - 30%:</u></strong></h2>
-        <p><strong style="color:green">You are still on the safe side!</strong></p>
-        <p>But you should reduce your time on social media.</p>
-        <h2><strong><u>30% - 50%:</u></strong></h2>
-        <p><strong style="color:orange">You are below the average!</strong></p>
-        <p>Your social media consumption is slightly below the average.</p>
-        <h2><strong><u>50% - 70%:</u></strong></h2>
-        <p><strong style="color:orange">You are above the average!</strong></p>
-        <p>Your social media consumption is slightly above the average.</p>
-        <h2><strong><u>70% - 90%:</u></strong></h2>
-        <p><strong style="color:red">You are not on the safe side!</strong></p>
-        <p>You should reduce the time on social media.</p>
-        <h2><strong><u>90% - 100%:</u></strong></h2>
-        <p><strong style="color:red">You are not on the safe side!</strong></p>
-        <p>You definitely have to reduce your social media consumption.</p>
-        <h2></h2>
+        <div id="result1" class="resultanswer">
+          <h1 class="test">Check your result here:</h1>
+          <h2><strong><u>0% - 10%:</u></strong></h2>
+          <p><strong style="color:green">You are on the safe side!</strong> </p>
+          <p> That means you are not addicted to social media.</p>
+        </div>
+        <div id="result2" class="resultanswer">
+          <h2><strong><u>11% - 30%:</u></strong></h2>
+          <p><strong style="color:green">You are still on the safe side!</strong></p>
+          <p>But you should reduce your time on social media.</p>
+        </div>
+        <div id="result3" class="resultanswer">
+          <h2><strong><u>31% - 50%:</u></strong></h2>
+          <p><strong style="color:orange">You are below the average!</strong></p>
+          <p>Your social media consumption is slightly below the average.</p>
+        </div>
+        <div id="result4" class="resultanswer">
+          <h2><strong><u>51% - 70%:</u></strong></h2>
+          <p><strong style="color:orange">You are above the average!</strong></p>
+          <p>Your social media consumption is slightly above the average.</p>
+        </div>
+        <div id="result5" class="resultanswer">
+          <h2><strong><u>71% - 90%:</u></strong></h2>
+          <p><strong style="color:red">You are not on the safe side!</strong></p>
+          <p>You should reduce the time on social media.</p>
+        </div>
+        <div id="result6" class="resultanswer">
+          <h2><strong><u>91% - 100%:</u></strong></h2>
+          <p><strong style="color:red">You are not on the safe side!</strong></p>
+          <p>You definitely have to reduce your social media consumption.</p>
+        </div>
       </section>
     </article>
   </body>

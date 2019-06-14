@@ -42,3 +42,7 @@ h1.test{
  75%  {color:darkblue;}
  100% {color:indigo;}
 }
+
+.resultanswer{
+  display: none;
+}
